@@ -11,12 +11,26 @@ int main(){
     float PIB = 103281000000.0 ;
     int Pontos_Turisticos = 15;
 
+    printf("digite o estado: ");
+    scanf("%c", &Estado );
     printf ("Estado: %c\n", Estado);
+    printf("digite o codigo da carta: ");
+    scanf("%s", &Codigo_da_Carta );
     printf ("Codigo da carta: %s\n", Codigo_da_Carta);
+    printf("nome da cidade: ");
+    scanf("%s", &Nome_Da_Cidade );
     printf ("nome da cidade: %s\n", Nome_Da_Cidade);
+    printf("numero de populacao: ");
+    scanf("%d", &Populacao );
     printf ("População: %d\n", Populacao);
+    printf("Tamanho da Area: ");
+    scanf ("%f", &Area);
     printf ("Área: %.3f\n", Area);
-    printf ("PIB: %.2f bilhões\n", PIB);
+    printf("O PIB ");
+    scanf("%f", &PIB );
+    printf ("PIB: %f bilhões\n", PIB);
+    printf("Quantos pontos turisticos ");
+    scanf("%d", &Pontos_Turisticos );
     printf ("Pontos turisticos: %d\n", Pontos_Turisticos);
     return 0; 
 }
