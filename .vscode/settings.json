@@ -4,6 +4,7 @@
     ],
     "C_Cpp.errorSquiggles": "disabled",
     "files.associations": {
-        "SUPERTRUNFO.C": "cpp"
+        "SUPERTRUNFO.C": "cpp",
+        "SuperTrunfo2.C": "cpp"
     }
 }
